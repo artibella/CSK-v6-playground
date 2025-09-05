@@ -68,7 +68,7 @@ composition:
                     value: 246a9113-763f-4330-b55e-dfa654743828
                   url:
                     value: >-
-                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/HZCRULDRQAO-R-4OhEMqOQ-Rectangle-1-(2).svg
+                      https://img.uniform.global/p/E3a6zR8wQo-Yu490Fp9BFQ/uxcFviTSRN-BSQbex8OqYQ-Rectangle-1-(2).svg
                     type: text
                   file:
                     type: file
@@ -229,9 +229,6 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-01-29T10:47:08.446904+00:00'
-modified: '2025-06-23T10:37:53.26818+00:00'
+created: '2025-09-01T16:36:07.754547+00:00'
+modified: '2025-09-05T10:29:12.957297+00:00'
 pattern: true
-previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/main-hero.jpg
-categoryId: f22b05f0-c4bf-4158-8ebc-4856e4d453af

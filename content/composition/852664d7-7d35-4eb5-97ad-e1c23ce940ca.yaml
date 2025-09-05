@@ -26,7 +26,7 @@ composition:
                   value: 0ff678c5-794e-4ad2-af0b-861222dd178d
                 url:
                   value: >-
-                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/ck_RJf3ZTfiDvE-8PPa0Ag-meta-image.png
+                    https://img.uniform.global/p/E3a6zR8wQo-Yu490Fp9BFQ/sjCDdXaZSe2En_whSCq4wQ-meta-image.png
                   type: text
                 file:
                   type: file
@@ -64,7 +64,7 @@ composition:
                   value: 0ff678c5-794e-4ad2-af0b-861222dd178d
                 url:
                   value: >-
-                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/ck_RJf3ZTfiDvE-8PPa0Ag-meta-image.png
+                    https://img.uniform.global/p/E3a6zR8wQo-Yu490Fp9BFQ/sjCDdXaZSe2En_whSCq4wQ-meta-image.png
                   type: text
                 file:
                   type: file
@@ -98,16 +98,49 @@ composition:
         $slotSectionItems:
           - _id: eebf1227-58aa-41c5-bfc4-089d94cebdba
             type: fixedHero
+            variant: ''
             parameters:
               image:
                 type: asset
-                value: []
+                value:
+                  - _id: 6060760d-1968-46c2-ae4b-c85b4a75c9ce
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 26fde52f-ea1b-4625-bbed-f5e692f1dc9d
+                      url:
+                        value: >-
+                          https://img.uniform.global/p/E3a6zR8wQo-Yu490Fp9BFQ/GrG9GtbBTqWB_5dH704upA-rectangle.jpg
+                        type: text
+                      file:
+                        type: file
+                        value: f4ef1fb0-b968-42a4-a6ad-7753d0a98c8c
+                      size:
+                        value: 148846
+                        type: number
+                      title:
+                        type: text
+                        value: rectangle.jpg
+                      width:
+                        value: 1600
+                        type: number
+                      height:
+                        value: 689
+                        type: number
+                      mediaType:
+                        value: image/jpeg
+                        type: text
+                    _source: uniform-assets
+              height:
+                type: dex-segmented-control-parameter
+                value: {}
               titleTag:
                 type: dex-segmented-control-parameter
                 value: h1
               textColor:
                 type: dex-color-palette-parameter
-                value: text-primary
+                value: text-secondary
               titleText:
                 type: text
                 value: Component Starter Kit
@@ -119,6 +152,9 @@ composition:
                 value: >-
                   A rich set of components to supercharge building fast, modern,
                   personalized experiences with Uniform DXP.
+              overlayAutoTint:
+                type: dex-slider-control-parameter
+                value: '0.2'
               contentAlignment:
                 type: dex-segmented-control-parameter
                 value: center
@@ -137,6 +173,6 @@ composition:
   _locales:
     - en
   _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
-created: '2025-01-29T10:47:10.496403+00:00'
-modified: '2025-06-12T08:05:55.451205+00:00'
+created: '2025-09-01T16:36:12.458303+00:00'
+modified: '2025-09-01T17:04:13.832464+00:00'
 pattern: false

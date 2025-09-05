@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: page
 name: Page
@@ -16,12 +16,20 @@ parameters:
   - id: pageTitle
     name: Page Title
     type: text
+    guidance: >-
+      The main title that appears in the browser tab and search results. Keep it
+      under 60 characters for optimal SEO display.
+    helpText: Keep under 60 characters for search results.
     typeConfig:
       required: false
     localizable: true
   - id: pageDescription
     name: Page Description
     type: text
+    guidance: >-
+      Meta description that appears in search results. Write compelling copy
+      that encourages clicks while staying under 160 characters.
+    helpText: Write compelling copy under 160 characters.
     typeConfig:
       multiline: true
       linesCount: 5
@@ -29,6 +37,10 @@ parameters:
   - id: pageKeywords
     name: Page Keywords
     type: text
+    guidance: >-
+      Comma-separated keywords relevant to this page's content. Focus on terms
+      your audience actually searches for.
+    helpText: Comma-separated keywords your audience searches for.
     typeConfig: null
     localizable: true
   - id: f4f80134-525c-4989-b414-145f14500d3d
@@ -44,13 +56,24 @@ parameters:
   - id: openGraphTitle
     name: Open Graph Title
     type: text
-    helpText: Fallback to Page Title when the value is not set.
+    guidance: >-
+      Title for social media sharing (Facebook, LinkedIn). Should be engaging
+      and under 60 characters. Falls back to Page Title if empty.
+    helpText: >-
+      Engaging title for social sharing (under 60 chars). Falls back to Page
+      Title.
     typeConfig: null
     localizable: true
   - id: openGraphDescription
     name: Open Graph Description
     type: text
-    helpText: Fallback to Page Description when the value is not set.
+    guidance: >-
+      Description for social media sharing. Write compelling copy under 160
+      characters that encourages engagement. Falls back to Page Description if
+      empty.
+    helpText: >-
+      Compelling description for social sharing (under 160 chars). Falls back to
+      Page Description.
     typeConfig:
       multiline: true
       linesCount: 5
@@ -58,11 +81,19 @@ parameters:
   - id: openGraphImage
     name: Open Graph Image
     type: asset
+    guidance: >-
+      Image displayed when sharing on social media. Recommended size:
+      1200x630px. Should be visually appealing and represent your content.
+    helpText: Use 1200x630px image for best social media display.
     typeConfig:
       max: 1
   - id: openGraphType
     name: Open Graph Type
     type: select
+    guidance: >-
+      Defines the type of content for social media platforms. Choose 'website'
+      for general pages, 'article' for blog posts, or 'video' for video content.
+    helpText: Choose 'website' for general pages, 'article' for blog posts.
     typeConfig:
       options:
         - text: website
@@ -84,24 +115,38 @@ parameters:
   - id: twitterTitle
     name: Twitter Title
     type: text
-    helpText: Fallback to Page Title when the value is not set.
+    guidance: >-
+      Title for Twitter sharing. Should be engaging and under 70 characters.
+      Falls back to Page Title if empty.
+    helpText: Twitter title (under 70 chars). Falls back to Page Title.
     typeConfig: null
     localizable: true
   - id: twitterDescription
     name: Twitter Description
     type: text
-    helpText: Fallback to Page Description when the value is not set.
+    guidance: >-
+      Description for Twitter sharing. Write compelling copy under 200
+      characters that encourages engagement. Falls back to Page Description if
+      empty.
+    helpText: Twitter description (under 200 chars). Falls back to Page Description.
     typeConfig: null
     localizable: true
   - id: twitterImage
     name: Twitter Image
     type: asset
-    helpText: Fallback to Open Graph Image when the correct value is not set.
+    guidance: >-
+      Image displayed when sharing on Twitter. Recommended size: 1200x630px.
+      Falls back to Open Graph Image if not set.
+    helpText: Use 1200x630px image. Falls back to Open Graph Image.
     typeConfig:
       max: 1
   - id: twitterCard
     name: Twitter Card
     type: select
+    guidance: >-
+      Twitter card format. Use 'summary_large_image' for better visual impact
+      with images, or 'summary' for text-only cards.
+    helpText: Use 'summary_large_image' for visual impact.
     typeConfig:
       options:
         - text: summary
@@ -123,10 +168,18 @@ parameters:
   - id: backgroundColor
     name: Background Color
     type: dex-color-palette-parameter
+    guidance: >-
+      Background color for the entire page. Choose from your brand color palette
+      to maintain visual consistency.
+    helpText: Choose from your brand color palette.
     typeConfig: null
   - id: favicon
     name: Favicon
     type: asset
+    guidance: >-
+      Small icon displayed in browser tabs and bookmarks. Should be 32x32px or
+      16x16px for optimal display across browsers.
+    helpText: Use 32x32px or 16x16px icon for browser tabs.
     typeConfig:
       max: 1
 categoryId: c7a1d1d9-cc3f-431c-b55e-6c4af1285108
@@ -177,5 +230,5 @@ slots:
 titleParameter: pageTitle
 thumbnailParameter: openGraphImage
 canBeComposition: true
-created: '2025-02-17T15:34:15.142676+00:00'
-updated: '2025-02-17T15:34:15.142676+00:00'
+created: '2025-09-01T16:36:04.381741+00:00'
+updated: '2025-09-05T10:53:30.202329+00:00'

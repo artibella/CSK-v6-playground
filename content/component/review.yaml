@@ -81,17 +81,7 @@ parameters:
     type: group
     typeConfig:
       collapsed: true
-      childrenParams:
-        - fitHeight
-        - fullHeight
-  - id: fitHeight
-    name: Fit Height (Deprecated)
-    type: checkbox
-    typeConfig: null
-  - id: fullHeight
-    name: Full Height (Deprecated)
-    type: checkbox
-    typeConfig: null
+      childrenParams: []
 categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/review-default-variant.jpg
@@ -120,8 +110,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
-created: '2025-01-29T10:47:02.552456+00:00'
-updated: '2025-06-25T09:40:33.221121+00:00'
+created: '2025-09-01T16:36:04.29891+00:00'
+updated: '2025-09-05T10:45:21.211188+00:00'
 variants:
   - id: multiColumn
     name: Multi Column
